@@ -26,8 +26,8 @@
 
 title: 찐막
 email: official.kwh94@gmail.com
-author: fray-cloud
-copyright: Copyright © fray-cloud
+author: fray-colud
+copyright: Copyright © 2021
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -151,7 +151,7 @@ night_mode: "auto"
 
 # Disqus comments
 disqus:
-  shortname: "fray-cloud-github-io.disqus.com"
+  shortname: fray-cloud-github-io.disqus.com
 
 # Gitment comments
 # gitment:
