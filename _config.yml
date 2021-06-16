@@ -151,7 +151,7 @@ night_mode: "auto"
 
 # Disqus comments
 disqus:
-  shortname: fray-cloud-github-io.disqus.com
+  shortname: fray-cloud-github-io
 
 # Gitment comments
 # gitment:
