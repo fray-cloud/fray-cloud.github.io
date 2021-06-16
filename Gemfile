@@ -1,8 +1,4 @@
-source 'https://rubygems.org'
-gem 'jekyll'
+# frozen_string_literal: true
 
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "pygments.rb"
-end
-
+source "https://rubygems.org"
+gemspec
