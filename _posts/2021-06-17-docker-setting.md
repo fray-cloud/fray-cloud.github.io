@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Docker] 도커 기존 이미지(컨테이너) 설정 변경 및 자동화
-subtitle: config.v2.json 변경
+title: "[Docker] 도커 기존 이미지(컨테이너) 설정 변경 및 자동화"
+subtitle: "config.v2.json 변경"
 categories: markdown
-tags: [docker, window, setting]
+tags: docker window setting
 
 ---
 ### 배경
@@ -61,10 +61,10 @@ tags: [docker, window, setting]
 3. 마운팅 컨테이너 생성
     - vhdx 내부에 접근하기 위해 다음과 같은 명령어를 실행한다.
     
-    ```shell script
+   ~~~
    docker run -v/:/data -it ubuntu /bin/bash
    cd /data/var/lib/docker/containers/<container:id>
-   ```
+   ~~~
 
     <img data-action="zoom" src='{{ "/assets/images/post/docker-mount-container.jpg" | relative_url }}' alt='docker mount container'>
     
