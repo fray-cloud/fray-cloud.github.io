@@ -6,15 +6,15 @@ categories: markdown
 tags: [docker, window, setting]
 
 ---
-###배경
+### 배경
 필자는 OpenCV를 이용하여 Django 웹 프레임워크를 접목시켜 웹서비스 프로젝트를 진행했다.
 진행 막바지에 실 사용자에게 배포를 해줘야 하는 상황이 왔고, 도커를 이용하여 이미지 배포를 하기로 했다.
 
-####배포 진행과정
+#### 배포 진행과정
 1. [OpenCV 환경이 이루어진 우분투](https://hub.docker.com/r/opencvcourses/opencv-docker) 이미지를 이용하여 진행
 2. 컨테이너 실행 후 프로젝트 `git pull` 진행
 
-####배포 진행 후 문제점
+#### 배포 진행 후 문제점
 1. 컴퓨터 재부팅 시 도커 자동화 설정을 하지 않아 서버가 켜지지 않는 현상 발생
 2. 컨테이너 실행 시 Django 가 자동으로 실행되지 않는 문제 
 
@@ -23,11 +23,11 @@ tags: [docker, window, setting]
 이렇게 되면 도커 프로그램 실행 후 컨테이너가 실행될 때 직접 `attach` 하여 수동으로 명령어를 입력해야하는 상황이기에 사실상 자동화를 하려면
 컨테이너가 실행 될 때 명령어도 자동으로 입력이 되어 Django가 실행이 되도록 설정해야 했다.
  
-###도커 자동화
-####자동화 과정
+### 도커 자동화
+#### 자동화 과정
 도커 Dasktop 실행 → 도커 컨테이너 실행
 
-####도커 자동화 설정
+#### 도커 자동화 설정
 
 1. 도커 Dasktop 설정
     - 도커 Dasktop 상단 설정 버튼 클릭 > General 탭 설정 활성화
@@ -45,11 +45,13 @@ tags: [docker, window, setting]
     >도커 컨테이너 생성 시 `--restart` 의 경우 default 값이 `no` (재시작하지 않음) 이기 때문에 재시작을 하려면
     `always` 옵션을 넣어야 한다.
 
-####도커 이미지 설정
+#### 도커 이미지 설정
+
 > 필자는 이미 만들어진 이미지로 작업 했기 때문에 처음 이미지를 만들어서 설정 하는경우 [도커 빌드](https://www.44bits.io/ko/post/building-docker-image-basic-commit-diff-and-dockerfile) 를 참고하자.
+
 1. 도커 정보 확인 하기
     - 명령어 `docker info` 를 사용하면 Docker Root Dir를 확인할 수 있는데 , 여기서 /var/lib/docker 로 나온다.
-    - ![docker info](assets/images/post/docker-info.jpg)
+    - ![docker info]({{site.url}}/assets/images/post/docker-info.jpg)
 
     > 도커가 wsl 위에서 동작해서 win 10 이후에는 vhdx 형식으로 도커 데이터가 저장된다.
       따라서 도커 데이터에 접근하려면 도커로 마운트한 컨테이너를 생성해야 한다.
