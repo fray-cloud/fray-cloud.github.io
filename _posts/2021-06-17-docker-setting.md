@@ -36,9 +36,9 @@ tags:
     - 도커 Dasktop 상단 설정 버튼 클릭 > General 탭 설정 활성화
         + Start Docker Desktop when you log in
         + Open Docker Desktop dashboard at startup
-        <img data-action="zoom" src='{{ "/assets/images/post/docker-setting-general.jpg" | relative_url }}' alt='docker General'>
+        <img data-action="zoom" src='{{ "/img/post/docker-setting-general.jpg" | relative_url }}' alt='docker General'>
     - 재부팅 후 윈도우 설정 > 앱 > 시작프로그램 확인
-        <img data-action="zoom" src='{{ "/assets/images/post/docker-setting-startapp.jpg" | relative_url }}' alt='docker startapp'>
+        <img data-action="zoom" src='{{ "/img/post/docker-setting-startapp.jpg" | relative_url }}' alt='docker startapp'>
         
 2. 도커 컨테이너 설정
     - 처음 컨테이너 실행하는 경우
@@ -53,7 +53,7 @@ tags:
 
 1. 도커 정보 확인 하기
     - 명령어 `docker info` 를 사용하면 Docker Root Dir를 확인할 수 있는데 , 여기서 /var/lib/docker 로 나온다.
-    <img data-action="zoom" src='{{ "/assets/images/post/docker-info.jpg" | relative_url }}' alt='docker info'>
+    <img data-action="zoom" src='{{ "/img/post/docker-info.jpg" | relative_url }}' alt='docker info'>
 
     > 도커가 wsl 위에서 동작해서 win 10 이후에는 vhdx 형식으로 도커 데이터가 저장된다.
       따라서 도커 데이터에 접근하려면 도커로 마운트한 컨테이너를 생성해야 한다.
@@ -69,7 +69,7 @@ tags:
    cd /data/var/lib/docker/containers/<container:id>
    ~~~
 
-    <img data-action="zoom" src='{{ "/assets/images/post/docker-mount-container.jpg" | relative_url }}' alt='docker mount container'>
+    <img data-action="zoom" src='{{ "/img/post/docker-mount-container.jpg" | relative_url }}' alt='docker mount container'>
     
 4. config.v2.json 수정
     - 파일 편집기를 이용하여 config.v2.json 파일을 수정한다.
