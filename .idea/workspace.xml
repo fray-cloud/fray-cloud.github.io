@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be212749-b5e9-44ff-96e5-017afb10e6a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fray-cloud.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/0b/4842ab6db36fe6ed779a2d5d1e5b2f96e483376f28fbc96415ea78e4d9e662" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/13/31275bc537b4c2bf1e46f7275677967515342e30b572e6852fa6f51b831fe8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4e/fca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/53/2eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5c/9cf46a59d52489e1ec22d9ecb85b503832bce3f3e9de8431191f2c6f36b45c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/70/7e79554f08cd5097d578d8e0dea422ddea6cbc3ecf710680e2ac25b719f3fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/85/45a2d70e3b72f5d7ff354d6acc03794fc2c334f7e73b0f7e09e8df243c26a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/b8/b1d894c683725260dcd78f8ed64f979331a1ab61fc8311e9ccfc300fd5de20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e3/b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e4/04aa80d8df4adb314c5c0e324a018068ee22660abde94e0dcc644bef866b31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ea/8f49b1e96ef7342070c6ca2d2ea73931734c2ffb1e0bcfbdf105d62904754c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/defaults.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/translate_langs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/code-highlight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/comments/disqus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/comments/gitment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/geopattern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/google-analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/google-translate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/hashlocate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/mathjax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/theme-toggle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/extensions/trianglify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/get_article_excerpt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/get_article_words.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/get_categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/get_datetimes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/get_reading_time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/get_tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/get_value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/functions/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar/archive-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar/article-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar/category-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar/common-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar/google-translate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar/tag-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/banner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/paginator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/post-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/post-item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/segments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/views/site-brand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/archives.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/articles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/framework.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-16-python-opencv-recognition-line.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-17-docker-setting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/misc/article-menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/misc/common-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/misc/gitment.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/misc/google-translate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/misc/theme-toggle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/yat.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/yat/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/yat/_dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/yat/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archives.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banners/home.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-mount-container.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-setting-general.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-setting-startapp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/markdown/default-2021-06-01-name.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jekyll-theme-yat.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freelancer-theme/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../freelancer-theme/_config.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1u0xGZ6G4wygzMH4oKeiun8xZOg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freelancer-theme" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KWH\Desktop\Build\blog\fray-cloud.github.io\assets\markdown" />
+      <recent name="C:\Users\KWH\Desktop\Build\blog\fray-cloud.github.io\assets" />
+      <recent name="C:\Users\KWH\Desktop\Build\blog\fray-cloud.github.io\assets\images\post" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KWH\Desktop\Build\blog\fray-cloud.github.io\_posts" />
+      <recent name="C:\Users\KWH\Desktop\Build\blog\fray-cloud.github.io\assets\images\banners" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="line_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../python/detection/recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../python/detection/recognition/line_recognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.line_recognition" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be212749-b5e9-44ff-96e5-017afb10e6a2" name="Default Changelist" comment="" />
+      <created>1623816212401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623816212401</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1623918459437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1623918459437" />
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1623836294266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.bottom/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1623836294266" />
+    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1623836294265">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.center/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1623836294265" />
+    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1623836294265">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.left/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1623836294265" />
+    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1623836294266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="281" key="GridCell.Tab.0.right/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1623836294266" />
+    <state x="-1080" y="63" width="1096" height="716" maximized="true" key="dock-window-1" timestamp="1623920150376">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="63" width="1096" height="716" maximized="true" key="dock-window-1/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1623920150376" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623912718516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1080.0.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1623912718516" />
+  </component>
+</project>

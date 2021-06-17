@@ -1,0 +1,129 @@
+I"<h3 id="배경">배경</h3>
+<p>필자는 OpenCV를 이용하여 Django 웹 프레임워크를 접목시켜 웹서비스 프로젝트를 진행했다.
+진행 막바지에 실 사용자에게 배포를 해줘야 하는 상황이 왔고, 도커를 이용하여 이미지 배포를 하기로 했다.</p>
+
+<h4 id="배포-진행과정">배포 진행과정</h4>
+<ol>
+  <li><a href="https://hub.docker.com/r/opencvcourses/opencv-docker">OpenCV 환경이 이루어진 우분투</a> 이미지를 이용하여 진행</li>
+  <li>컨테이너 실행 후 프로젝트 <code class="language-plaintext highlighter-rouge">git pull</code> 진행</li>
+</ol>
+
+<h4 id="배포-진행-후-문제점">배포 진행 후 문제점</h4>
+<ol>
+  <li>컴퓨터 재부팅 시 도커 자동화 설정을 하지 않아 서버가 켜지지 않는 현상 발생</li>
+  <li>컨테이너 실행 시 Django 가 자동으로 실행되지 않는 문제</li>
+</ol>
+
+<blockquote>
+  <p>Django 서버를 동작 시키려면 명령어로 <code class="language-plaintext highlighter-rouge">python manage.py reunserver ip:port</code> 를 입력해야 하는데 필자는 초반에 컨테이너 생성시 
+명령어를 입력하기 위해 <code class="language-plaintext highlighter-rouge">docker run -it </code>로 컨테이너 start 후 attach 로 명령어를 입력했다.<br />
+이렇게 되면 도커 프로그램 실행 후 컨테이너가 실행될 때 직접 <code class="language-plaintext highlighter-rouge">attach</code> 하여 수동으로 명령어를 입력해야하는 상황이기에 사실상 자동화를 하려면
+컨테이너가 실행 될 때 명령어도 자동으로 입력이 되어 Django가 실행이 되도록 설정해야 했다.</p>
+</blockquote>
+
+<h3 id="도커-자동화">도커 자동화</h3>
+<h4 id="자동화-과정">자동화 과정</h4>
+<p>도커 Dasktop 실행 → 도커 컨테이너 실행</p>
+
+<h4 id="도커-자동화-설정">도커 자동화 설정</h4>
+
+<ol>
+  <li>도커 Dasktop 설정
+    <ul>
+      <li>도커 Dasktop 상단 설정 버튼 클릭 &gt; General 탭 설정 활성화
+        <ul>
+          <li>Start Docker Desktop when you log in</li>
+          <li>Open Docker Desktop dashboard at startup
+  <img data-action="zoom" src="/assets/images/post/docker-setting-general.jpg" alt="docker General" /></li>
+        </ul>
+      </li>
+      <li>재부팅 후 윈도우 설정 &gt; 앱 &gt; 시작프로그램 확인
+  <img data-action="zoom" src="/assets/images/post/docker-setting-startapp.jpg" alt="docker startapp" /></li>
+    </ul>
+  </li>
+  <li>도커 컨테이너 설정
+    <ul>
+      <li>처음 컨테이너 실행하는 경우
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">docker run &lt;options&gt; &lt;image&gt; --restart=always</code></li>
+        </ul>
+      </li>
+      <li>이미 컨테이너가 생성 되었을 경우
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">docker update --restart=always &lt;container&gt;</code>
+            <blockquote>
+              <p>도커 컨테이너 생성 시 <code class="language-plaintext highlighter-rouge">--restart</code> 의 경우 default 값이 <code class="language-plaintext highlighter-rouge">no</code> (재시작하지 않음) 이기 때문에 재시작을 하려면 <code class="language-plaintext highlighter-rouge">always</code> 옵션을 넣어야 한다.</p>
+            </blockquote>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="도커-이미지-설정">도커 이미지 설정</h4>
+
+<blockquote>
+  <p>필자는 이미 만들어진 이미지로 작업 했기 때문에 처음 이미지를 만들어서 설정 하는경우 <a href="https://www.44bits.io/ko/post/building-docker-image-basic-commit-diff-and-dockerfile">도커 빌드</a> 를 참고하자.</p>
+</blockquote>
+
+<ol>
+  <li>도커 정보 확인 하기
+    <ul>
+      <li>명령어 <code class="language-plaintext highlighter-rouge">docker info</code> 를 사용하면 Docker Root Dir를 확인할 수 있는데 , 여기서 /var/lib/docker 로 나온다.
+ <img data-action="zoom" src="/assets/images/post/docker-info.jpg" alt="docker info" /></li>
+    </ul>
+
+    <blockquote>
+      <p>도커가 wsl 위에서 동작해서 win 10 이후에는 vhdx 형식으로 도커 데이터가 저장된다.
+   따라서 도커 데이터에 접근하려면 도커로 마운트한 컨테이너를 생성해야 한다.</p>
+    </blockquote>
+  </li>
+  <li>ext4.vhdx 파일 확인
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">C:\Users\&lt;username&gt;\AppData\Local\Docker\wsl\data</code> 에 ext4.vhdx 파일을 확인한다.</li>
+    </ul>
+  </li>
+  <li>마운팅 컨테이너 생성
+    <ul>
+      <li>vhdx 내부에 접근하기 위해 다음과 같은 명령어를 실행한다.</li>
+    </ul>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -v/:/data -it ubuntu /bin/bash
+cd /data/var/lib/docker/containers/&lt;container:id&gt;
+</code></pre></div>    </div>
+
+    <p><img data-action="zoom" src="/assets/images/post/docker-mount-container.jpg" alt="docker mount container" /></p>
+  </li>
+  <li>config.v2.json 수정
+    <ul>
+      <li>파일 편집기를 이용하여 config.v2.json 파일을 수정한다.
+        <blockquote>
+          <p>docker container config 를 확인 하기 위해서 주로 <code class="language-plaintext highlighter-rouge">docker inspect &lt;container&gt;</code> 로 확인한다. 
+필자의 경우 config 내 CMD 와 ENTRYPOINT 를 수정하여 컨테이너 실행 시 Django runserver 명령어가 수행되도록 하기 위해 변경했다.</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li>도커 컨테이너 커밋
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">docker commit &lt;container&gt; &lt;image_name&gt;</code> 명령어를 사용하여 이미지를 커밋한다.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="도커-이미지-실행">도커 이미지 실행</h4>
+<ol>
+  <li>도커 이미지 실행
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">docker run -d --name &lt;container_name&gt; &lt;image&gt;</code> 명령어를 사용하여 이미지를 실행한다.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="마침">마침</h3>
+<p>도커를 이미지 빌드부터 시작하여 컨테이너까지 만들어 배포하는 과정은 구글만 쳐도 많이 나오지만, 정작 이미지를 pull 하여 받아올때
+내부에 dockerfile 을 수정하는 방법은 찾기 어려웠다.<br />
+또한 맥 기반이나 리눅스 기반이였으면 터미널로 슝슝 들어가면 그만이지만 .. 윈도우는 wsl 기반으로 되어있어서 자료를 찾는데 많은 어려움이 있었다.<br />
+다음에 OpenCV 기반 이미지를 사용 하거나, Django 기반 이미지 사용할때 참고하면 도움 될 것 같다.</p>
+:ET
