@@ -51,7 +51,7 @@ tags: [docker, window, setting]
 
 1. 도커 정보 확인 하기
     - 명령어 `docker info` 를 사용하면 Docker Root Dir를 확인할 수 있는데 , 여기서 /var/lib/docker 로 나온다.
-    - ![docker info]({{"/assets/images/post/docker-info.jpg"| relative_url}}) 
+    <img data-action="zoom" src='{{ "/assets/images/post/docker-info.jpg" | relative_url }}' alt='docker info'>
 
     > 도커가 wsl 위에서 동작해서 win 10 이후에는 vhdx 형식으로 도커 데이터가 저장된다.
       따라서 도커 데이터에 접근하려면 도커로 마운트한 컨테이너를 생성해야 한다.
