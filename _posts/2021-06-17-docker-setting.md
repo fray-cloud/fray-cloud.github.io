@@ -51,7 +51,7 @@ tags: [docker, window, setting]
 
 1. 도커 정보 확인 하기
     - 명령어 `docker info` 를 사용하면 Docker Root Dir를 확인할 수 있는데 , 여기서 /var/lib/docker 로 나온다.
-    - ![docker info]({{site.url}}/assets/images/post/docker-info.jpg)
+    - ![docker info]({{"/assets/images/post/docker-info.jpg"| relative_url}}) 
 
     > 도커가 wsl 위에서 동작해서 win 10 이후에는 vhdx 형식으로 도커 데이터가 저장된다.
       따라서 도커 데이터에 접근하려면 도커로 마운트한 컨테이너를 생성해야 한다.
@@ -82,7 +82,7 @@ tags: [docker, window, setting]
     - `docker run -d --name <container_name> <image>` 명령어를 사용하여 이미지를 실행한다.
 
 
-###마침
+### 마침
 도커를 이미지 빌드부터 시작하여 컨테이너까지 만들어 배포하는 과정은 구글만 쳐도 많이 나오지만, 정작 이미지를 pull 하여 받아올때
 내부에 dockerfile 을 수정하는 방법은 찾기 어려웠다.<br>
 또한 맥 기반이나 리눅스 기반이였으면 터미널로 슝슝 들어가면 그만이지만 .. 윈도우는 wsl 기반으로 되어있어서 자료를 찾는데 많은 어려움이 있었다.<br>
