@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Test
-subtitle: Test
+title: title
+subtitle: subtitle
 categories: markdown
-tags: [test]
+tags: [tags]
 
 ---
 ###HI
