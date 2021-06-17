@@ -2,8 +2,11 @@
 layout: post
 title: "[Docker] 도커 기존 이미지(컨테이너) 설정 변경 및 자동화"
 subtitle: "config.v2.json 변경"
-categories: markdown
-tags: docker window setting
+catalog: true
+tags: 
+    - docker
+    - window
+    - setting
 
 ---
 ### 배경

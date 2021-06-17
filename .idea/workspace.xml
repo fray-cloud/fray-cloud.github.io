@@ -20,104 +20,161 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be212749-b5e9-44ff-96e5-017afb10e6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fray-cloud.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/0b/4842ab6db36fe6ed779a2d5d1e5b2f96e483376f28fbc96415ea78e4d9e662" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/13/31275bc537b4c2bf1e46f7275677967515342e30b572e6852fa6f51b831fe8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4e/fca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/53/2eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5c/9cf46a59d52489e1ec22d9ecb85b503832bce3f3e9de8431191f2c6f36b45c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/70/7e79554f08cd5097d578d8e0dea422ddea6cbc3ecf710680e2ac25b719f3fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/85/45a2d70e3b72f5d7ff354d6acc03794fc2c334f7e73b0f7e09e8df243c26a9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/b8/b1d894c683725260dcd78f8ed64f979331a1ab61fc8311e9ccfc300fd5de20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e3/b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e4/04aa80d8df4adb314c5c0e324a018068ee22660abde94e0dcc644bef866b31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ea/8f49b1e96ef7342070c6ca2d2ea73931734c2ffb1e0bcfbdf105d62904754c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/defaults.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/translate_langs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/code-highlight.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/comments/disqus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/comments/gitment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/geopattern.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/google-analytics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/google-translate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/hashlocate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/mathjax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/theme-toggle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/extensions/trianglify.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/get_article_excerpt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/get_article_words.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/get_categories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/get_datetimes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/get_reading_time.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/get_tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/get_value.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/functions/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar/archive-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar/article-menu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar/category-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar/common-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar/google-translate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar/tag-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/article.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/banner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/paginator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/post-header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/post-item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/segments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/views/site-brand.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archives.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/articles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/categories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/framework.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-06-16-python-opencv-recognition-line.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-06-17-docker-setting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/misc/article-menu.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/misc/common-list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/misc/gitment.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/misc/google-translate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/misc/theme-toggle.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/yat.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/yat/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/yat/_dark.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/yat/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-16-python-opencv-recognition-line.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-16-python-opencv-recognition-line.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-17-docker-setting.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-17-docker-setting.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banners/home.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-info.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-mount-container.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-setting-general.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/post/docker-setting-startapp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/markdown/default-2021-06-01-name.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.idea/fray-cloud.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/07/9e9f8c9b2162c6b57ba2f4e680f882e2d1f077a316e01cafe4a9f281ae5993" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/13/31275bc537b4c2bf1e46f7275677967515342e30b572e6852fa6f51b831fe8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/25/662fb4df8a645d99ef1b57cc2a79dae5ed597d356a5c7e0741a082b15bd925" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/2d/aa9a70023f4c341b8e97ccba3a7c423d0f3856400786a452af3f6971217495" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4e/fca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/70/7e79554f08cd5097d578d8e0dea422ddea6cbc3ecf710680e2ac25b719f3fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/76/797a63914159dec2278c72740e273b48e85096f8ee6af17971b199e7c11f60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/85/45a2d70e3b72f5d7ff354d6acc03794fc2c334f7e73b0f7e09e8df243c26a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/86/63c8f37ca12008817019022bb1581408c95183766f9fd8d38d8f91552f5c5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/aa/f2320646108059a87ab5017a86aee454f5378ed95003dbb2e12f4ca5266e0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/af/4cb6de204f05660cb31eebcc611b1743085dfb476a353a83fd059375570b3c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/b8/b1d894c683725260dcd78f8ed64f979331a1ab61fc8311e9ccfc300fd5de20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/d0/50ed02d3933d0f8d03f3faf9dfa8db3b2dcc28940f7052e47c1a5ec8e8239b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/d6/6fe706f6a8ab4c65995087a7f5a78fabb31fde90260eb43c37a9487fc49d54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/dd/d6fec1ed8183e42c8a5721f6f8622831a32f2bfccd9c0c821173024e9e9909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e3/b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e4/04aa80d8df4adb314c5c0e324a018068ee22660abde94e0dcc644bef866b31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ea/8f49b1e96ef7342070c6ca2d2ea73931734c2ffb1e0bcfbdf105d62904754c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_data/defaults.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_data/translate_langs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/code-highlight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/comments/disqus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/comments/gitment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/geopattern.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/google-analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/google-translate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/hashlocate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/mathjax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/theme-toggle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/extensions/trianglify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/get_article_excerpt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/get_article_words.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/get_categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/get_datetimes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/get_reading_time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/get_tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/get_value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/functions/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/sidebar/archive-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/sidebar/article-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/sidebar/category-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/sidebar/common-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/sidebar/google-translate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/sidebar/tag-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/banner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/paginator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/post-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/post-item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/segments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_includes/views/site-brand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/archives.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/articles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/framework.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_layouts/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_posts/2021-06-16-python-opencv-recognition-line.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_posts/2021-06-17-docker-setting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/misc/article-menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/misc/common-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/misc/gitment.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/misc/google-translate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/misc/theme-toggle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/yat.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/yat/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/yat/_dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/_sass/yat/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/archives.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/images/banners/home.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/images/post/docker-info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/images/post/docker-mount-container.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/images/post/docker-setting-general.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/images/post/docker-setting-startapp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/assets/markdown/default-2021-06-01-name.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/jekyll-theme-yat.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/before/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-BY-gentle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avatar-by.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avatar_g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avatar_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-2015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-BJJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-YesOrNo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-alibaba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-android.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-coffee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-cook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-debug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-digital-native.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-github-cup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-hacker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-iWatch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-ios10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-ios9-web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-ioses.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-js-version.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-keybord.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-kuaidi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-miui-ux.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-miui6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-re-vs-ng2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-rwd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-swift.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-swift2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-universe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-sample-image.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jekyll-theme-yat.gemspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../freelancer-theme/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../freelancer-theme/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +202,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freelancer-theme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
