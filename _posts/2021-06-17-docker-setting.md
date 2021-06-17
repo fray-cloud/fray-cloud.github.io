@@ -33,17 +33,16 @@ tags: [docker, window, setting]
     - 도커 Dasktop 상단 설정 버튼 클릭 > General 탭 설정 활성화
         + Start Docker Desktop when you log in
         + Open Docker Desktop dashboard at startup
-        - ![docker General](assets/images/post/docker-setting-general.jpg)
+        <img data-action="zoom" src='{{ "/assets/images/post/docker-setting-general.jpg" | relative_url }}' alt='docker General'>
     - 재부팅 후 윈도우 설정 > 앱 > 시작프로그램 확인
-        - ![docker startapp](assets/images/post/docker-setting-startapp.jpg)
+        <img data-action="zoom" src='{{ "/assets/images/post/docker-setting-startapp.jpg" | relative_url }}' alt='docker startapp'>
         
 2. 도커 컨테이너 설정
     - 처음 컨테이너 실행하는 경우
         + `docker run <options> <image> --restart=always`
     - 이미 컨테이너가 생성 되었을 경우
         + `docker update --restart=always <container>`
-    >도커 컨테이너 생성 시 `--restart` 의 경우 default 값이 `no` (재시작하지 않음) 이기 때문에 재시작을 하려면
-    `always` 옵션을 넣어야 한다.
+    >도커 컨테이너 생성 시 `--restart` 의 경우 default 값이 `no` (재시작하지 않음) 이기 때문에 재시작을 하려면 `always` 옵션을 넣어야 한다.
 
 #### 도커 이미지 설정
 
@@ -61,12 +60,13 @@ tags: [docker, window, setting]
 
 3. 마운팅 컨테이너 생성
     - vhdx 내부에 접근하기 위해 다음과 같은 명령어를 실행한다.
+    
     ```shell script
    docker run -v/:/data -it ubuntu /bin/bash
    cd /data/var/lib/docker/containers/<container:id>
    ```
-                                                                                                                                                                                
-    - ![docker mount container](assets/images/post/docker-mount-container.jpg)
+
+    <img data-action="zoom" src='{{ "/assets/images/post/docker-mount-container.jpg" | relative_url }}' alt='docker mount container'>
     
 4. config.v2.json 수정
     - 파일 편집기를 이용하여 config.v2.json 파일을 수정한다.
