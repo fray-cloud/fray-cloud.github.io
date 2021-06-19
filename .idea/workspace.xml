@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be212749-b5e9-44ff-96e5-017afb10e6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-06-17-docker-setting.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-17-docker-setting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../freelancer-theme/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../freelancer-theme/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-06-19-exam-reduce-word.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-06-19-exam-reduce-word.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="RMarkdown.notebook" />
       </list>
     </option>
   </component>
@@ -49,7 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
