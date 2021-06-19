@@ -37,6 +37,8 @@ anchorjs: true                          # if you want to customize anchor. check
 gems: [jekyll-paginate]
 
 
+# Google Analytics
+ga_track_id: 'UA-199893386-1'            # Format: UA-xxxxxx-xx
 
 
 # Markdown settings
@@ -50,24 +52,23 @@ kramdown:
 
 
 
-# 评论系统
 # Disqus（https://disqus.com/）
 disqus_username: fray-cloud-github-io
 
 # Gitalk
 #gitalk:
-#  enable: true    #是否开启Gitalk评论
-#  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#  repo: qiubaiying.github.io    #仓库名称
-#  owner: qiubaiying    #github用户名
+#  enable: true
+#  clientID: f2c84e7629bb1446c1a4
+#  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d
+#  repo: qiubaiying.github.io
+#  owner: qiubaiying
 #  admin: qiubaiying
-#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#  distractionFreeMode: true
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-tags: true
+featured-condition-size: 1
 
 
 
