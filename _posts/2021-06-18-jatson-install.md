@@ -58,10 +58,8 @@ tags:
 
 3. ~~또는 터미널에서 다음과 같은 명령어 실행~~
 
-~~~shell script
-
+~~~
 sudo dpkg -i sdkmanager_1.5.1-7814_amd.deb
-
 ~~~
 
 
@@ -70,8 +68,7 @@ dpkg 및  apt lock 파일 삭제 & 업데이트 해주어야 한다.<br>
 다음과 같은 명령어 실행
 
 
-~~~shell script
-
+~~~
 sudo rm /var/lib/apt/lists/lock
 sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock*
@@ -79,7 +76,6 @@ sudo rm /var/lib/dpkg/lock*
 # package update
 sudo dpkg --configure -a
 sudo apt update
-
 ~~~
 
 
@@ -93,11 +89,12 @@ sudo apt update
 
 6. SDK Manager 실행
     - nvidia 로그인
-    - step1] continue
+    - **step1**] continue
     <img data-action="zoom" src='{{ "/img/post/jatson-setting-4.png" | relative_url }}' alt='jatson virtual box install'>
-    - step2] I accept the terms and conditions of the ... 체크 후 continue
+    - **step2**] I accept the terms and conditions of the ... 체크 후 continue
     <img data-action="zoom" src='{{ "/img/post/jatson-setting-5.png" | relative_url }}' alt='jatson virtual box install'>
-    - step3] 느긋하게 다운 받아지는 것을 기다리기
+    - **step3**] 느긋하게 다운 받아지는 것을 기다리기
+    <img data-action="zoom" src='{{ "/img/post/jatson-setting-6.png" | relative_url }}' alt='jatson virtual box install'>
     
 
 
