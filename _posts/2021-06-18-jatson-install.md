@@ -58,9 +58,11 @@ tags:
 
 3. ~~또는 터미널에서 다음과 같은 명령어 실행~~
 
-```shell script
+~~~shell script
+
 sudo dpkg -i sdkmanager_1.5.1-7814_amd.deb
-```
+
+~~~
 
 
 만약 waiting for cache lock could not get lock /var/lib/dpkg/lock-frontend ... 이슈가 일어난다면! <br>
@@ -68,7 +70,8 @@ dpkg 및  apt lock 파일 삭제 & 업데이트 해주어야 한다.<br>
 다음과 같은 명령어 실행
 
 
-```shell script
+~~~shell script
+
 sudo rm /var/lib/apt/lists/lock
 sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock*
@@ -76,14 +79,15 @@ sudo rm /var/lib/dpkg/lock*
 # package update
 sudo dpkg --configure -a
 sudo apt update
-``` 
+
+~~~
 
 
 > 우분투를 설치하고 패키저 업데이트를 습관화 해야할 것 같다 ..
 
 4. Jatson 본체 앞부분의 C-port 와 호스트 컴퓨터 USB를 연결
 5. VM 종료 및 USB 장치 연결 설정 후 시작
-<img data-action="zoom" src='{{ "/img/post/jatson-setting-2.png" | relative_url }}' alt='jatson virtual box install'>
+<img data-action="zoom" src='{{ "/img/post/jatson-setting-2.jpg" | relative_url }}' alt='jatson virtual box install'>
 >  VM 이 실행중일 때 장치 → USB 로 연결할 수 있는데 ... 먹통이 되는 현상이 발생한다. <br>
    따라서 VM 을 종료 하고 시작 전에 연결 설정 후 시작하길 바란다.
 
@@ -92,7 +96,7 @@ sudo apt update
     - step1] continue
     <img data-action="zoom" src='{{ "/img/post/jatson-setting-4.png" | relative_url }}' alt='jatson virtual box install'>
     - step2] I accept the terms and conditions of the ... 체크 후 continue
-    <img data-action="zoom" src='{{ "/img/post/jatson-setting-5.jpg" | relative_url }}' alt='jatson virtual box install'>
+    <img data-action="zoom" src='{{ "/img/post/jatson-setting-5.png" | relative_url }}' alt='jatson virtual box install'>
     - step3] 느긋하게 다운 받아지는 것을 기다리기
     
 
