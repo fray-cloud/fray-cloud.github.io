@@ -62,9 +62,11 @@ tags:
 sudo dpkg -i sdkmanager_1.5.1-7814_amd.deb
 ```
 
+
 만약 waiting for cache lock could not get lock /var/lib/dpkg/lock-frontend ... 이슈가 일어난다면! <br>
 dpkg 및  apt lock 파일 삭제 & 업데이트 해주어야 한다.<br>
 다음과 같은 명령어 실행
+
 
 ```shell script
 sudo rm /var/lib/apt/lists/lock
@@ -75,6 +77,8 @@ sudo rm /var/lib/dpkg/lock*
 sudo dpkg --configure -a
 sudo apt update
 ``` 
+
+
 > 우분투를 설치하고 패키저 업데이트를 습관화 해야할 것 같다 ..
 
 4. Jatson 본체 앞부분의 C-port 와 호스트 컴퓨터 USB를 연결
