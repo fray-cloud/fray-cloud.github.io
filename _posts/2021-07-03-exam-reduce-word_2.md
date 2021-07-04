@@ -9,7 +9,7 @@ tags:
     - 이론
 ---
 
-이전 별다줄 모음은 [여기]({{ "/img/post/jatson-setting-4.png" | relative_url }}) 로!
+이전 별다줄 모음은 [여기](https://fray-cloud.github.io/2021/06/19/exam-reduce-word/) 로!
 part2 는 수제비 2권으로 하려고 했으나 .. 문제 풀면서 오답으로 나온 것을 위주로 별다줄을 하려고 한다.
 
 
