@@ -125,12 +125,12 @@ tags:
 1. 메일 서버 앞단 위치하여 프록시 메일서버 동작
 2. 메일 바이러스 검사, 내부에서 외부 본문 검색 가능 통한 정보 유출 방지
 
-`거리벡터 알고리즘`
+`거리벡터 알고리즘` → RIP(Routing Information Protocol)
 
 1. 거리와 방향위주로 만들어진 라우팅 알고리즘
 2. 벨만 포드 알고리즘 이용
 
-`링크상태 알고리즘`
+`링크상태 알고리즘` → OSPF(Open Shortest Path First)
 
 1. 최단 경로로 만들어진 라우팅 알고리즘
 2. 다익스트라 알고리즘 이용
@@ -151,6 +151,8 @@ tags:
 
 1. 암호화와 복호화에 같은 암호 키를 쓰는 알고리즘
 2. 단위에 따라 스트림 암호와 블록 암호로 나눔
+
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -175,7 +177,7 @@ tags:
     <td class="tg-9wq8" rowspan="6">대칭키 방식</td>
     <td class="tg-9wq8" rowspan="5">블록 암호 알고리즘</td>
     <td class="tg-0pky">DES</td>
-    <td class="tg-0pky">1. 64bit 블록, 128bit 암호화 키<br>2. 16 round</td>
+    <td class="tg-0pky">1. NIST 발표<br>2. 64bit 블록, 128bit 암호화 키<br>3. 16 round</td>
   </tr>
   <tr>
     <td class="tg-0pky">3-DES</td>
@@ -183,7 +185,7 @@ tags:
   </tr>
   <tr>
     <td class="tg-0pky">AES</td>
-    <td class="tg-0pky">1. 128 평문 128 암호화<br>2. 키 크기에 따라 10/12/14 round 수행<br>3. 라운드 키 수 = N + 1</td>
+    <td class="tg-0pky">1. NIST 발표<br>2. 128 평문 128 암호화<br>3. 키 크기에 따라 10/12/14 round 수행<br>3. 라운드 키 수 = N + 1</td>
   </tr>
   <tr>
     <td class="tg-0pky">SEED</td>
@@ -211,3 +213,5 @@ tags:
   </tr>
 </tbody>
 </table>
+
+
