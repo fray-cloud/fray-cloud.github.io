@@ -166,52 +166,50 @@ tags:
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky">대분류</th>
-    <th class="tg-0pky">중분류</th>
-    <th class="tg-0pky">알고리즘</th>
-    <th class="tg-0pky">설명</th>
+    <th class="tg-c3ow">대분류</th>
+    <th class="tg-c3ow">중분류</th>
+    <th class="tg-c3ow">알고리즘</th>
+    <th class="tg-c3ow">설명</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="tg-9wq8" rowspan="6">대칭키 방식</td>
     <td class="tg-9wq8" rowspan="5">블록 암호 알고리즘</td>
-    <td class="tg-0pky">DES</td>
-    <td class="tg-0pky">1. NIST 발표<br>2. 64bit 블록, 128bit 암호화 키<br>3. 16 round</td>
+    <td class="tg-9wq8">DES</td>
+    <td class="tg-0pky">1. 64bit 블록, 128bit 암호화 키<br>2. 16 round</td>
   </tr>
   <tr>
-    <td class="tg-0pky">3-DES</td>
+    <td class="tg-9wq8">3-DES</td>
     <td class="tg-0pky">1. 암호화 키 2개 사용</td>
   </tr>
   <tr>
-    <td class="tg-0pky">AES</td>
-    <td class="tg-0pky">1. NIST 발표<br>2. 128 평문 128 암호화<br>3. 키 크기에 따라 10/12/14 round 수행<br>3. 라운드 키 수 = N + 1</td>
+    <td class="tg-9wq8">AES</td>
+    <td class="tg-0pky">1. 128 평문 128 암호화<br>2. 키 크기에 따라 10/12/14 round 수행<br>3. 라운드 키 수 = N + 1</td>
   </tr>
   <tr>
-    <td class="tg-0pky">SEED</td>
+    <td class="tg-9wq8">SEED</td>
     <td class="tg-0pky">1. KISA 주관, ETRI 개발<br>2. 국제표준 부합, 민간 사용 목적</td>
   </tr>
   <tr>
-    <td class="tg-0pky">ARIA</td>
+    <td class="tg-9wq8">ARIA</td>
     <td class="tg-0pky">1. NSRI 개발<br>2. 공공 사용목적, 비밀키 규격 AES 동일</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">스트림 암호</td>
-    <td class="tg-0pky">RC-4</td>
+    <td class="tg-9wq8">스트림 암호</td>
+    <td class="tg-9wq8">RC-4</td>
     <td class="tg-0pky">1. TLS, WEP 사용<br>2. Octec 단위 기반 암호화</td>
   </tr>
   <tr>
     <td class="tg-9wq8" rowspan="2">비대칭키 방식</td>
-    <td class="tg-c3ow">인수분해</td>
-    <td class="tg-0pky">RSA</td>
+    <td class="tg-9wq8">인수분해</td>
+    <td class="tg-9wq8">RSA</td>
     <td class="tg-0pky">1. 큰 숫자를 소인수 분해 하는것 어려움 기반 개발<br>2. 공개키만 가지고 개인키 추측 불가</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">이산대수</td>
-    <td class="tg-0pky">DSA</td>
+    <td class="tg-9wq8">이산대수</td>
+    <td class="tg-9wq8">DSA</td>
     <td class="tg-0pky">1. 이산대수 어려움을 안정성 바탕 개발</td>
   </tr>
 </tbody>
 </table>
-
-
