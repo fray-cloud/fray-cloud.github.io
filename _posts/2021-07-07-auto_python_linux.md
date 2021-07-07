@@ -36,6 +36,7 @@ mv pydiction/after/ after/ #after 폴더를 .vim 폴더 아래 이동
 
 ### .vimrc 파일 수정
 1. vim 환경을 적용하기 위해 .vimrc 파일을 수정한다.
+
 ```bash
 # vim ~/.vimrc
 syntax on
