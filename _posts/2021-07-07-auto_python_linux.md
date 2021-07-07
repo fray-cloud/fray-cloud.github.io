@@ -11,12 +11,13 @@ tags:
 
 ---
 ### 리눅스에도 자동완성 기능을 이용할 수 있다.
-윈도우 상에서 파이참을 이용하여 자동완성 기능에 물들어 있던 필자는 리눅스 환경에서 코딩작업을 해야할 상황이 생겼고, 어떻게 하면 꼼수를 부릴 수 있을까 .. 하다가
+윈도우 상에서 파이참을 이용하여 자동완성 기능에 물들어 있던 필자는 리눅스 환경에서 코딩작업을 해야할 상황이 생겼고, ~~어떻게 하면 꼼수를 부릴 수 있을까 .. 하다가~~
 vim 을 이용하여 자동완성 기능을 이용할 수 있어서 세팅 방법을 적어보려 한다.
 
 ### 파이썬 하이라이트 설치
 1. 파이썬 가독성을 위해 확장 스크립트를 설치한다.
-```
+
+```shell script
 cd ~/.vim/ # .vim 폴더 이동
 git clone https://github.com/hdima/python-syntax.git #스크립트 설치
 mv python-syntax/syntax syntax/ # 스크립트 파일 내부에 syntax 폴더 옮김
@@ -24,6 +25,7 @@ mv python-syntax/syntax syntax/ # 스크립트 파일 내부에 syntax 폴더 �
 
 ### 자동완성 기능 설치
 1. 자동완성(pydiction) 설치
+
 ```
 cd ~/.vim/ # .vim 폴더 이동
 wget https://www.vim.org/scripts/download_script.php?src_id=21842 # pydiction ver 1.2.3
@@ -33,6 +35,7 @@ mv pydiction/after/ after/ #after 폴더를 .vim 폴더 아래 이동
 ```
 
 ### .vimrc 파일 수정
+1. vim 환경을 적용하기 위해 .vimrc 파일을 수정한다.
 ```
 # vim ~/.vimrc
 syntax on
@@ -51,3 +54,4 @@ let g:pydiction_location='/home/[user_id]/.vim/pydiction/complete-dict' # [user_
 
 ### 적용 결과
 <img data-action="zoom" src='{{ "/img/post/auto_python.gif" | relative_url }}' alt='auto python'>
+tab 버튼을 누르게 되면 자동완성이 실행된다.
