@@ -17,7 +17,7 @@ vim 을 이용하여 자동완성 기능을 이용할 수 있어서 세팅 방�
 ### 파이썬 하이라이트 설치
 1. 파이썬 가독성을 위해 확장 스크립트를 설치한다.
 
-```shell script
+```bash
 cd ~/.vim/ # .vim 폴더 이동
 git clone https://github.com/hdima/python-syntax.git #스크립트 설치
 mv python-syntax/syntax syntax/ # 스크립트 파일 내부에 syntax 폴더 옮김
@@ -26,7 +26,7 @@ mv python-syntax/syntax syntax/ # 스크립트 파일 내부에 syntax 폴더 �
 ### 자동완성 기능 설치
 1. 자동완성(pydiction) 설치
 
-```
+```bash
 cd ~/.vim/ # .vim 폴더 이동
 wget https://www.vim.org/scripts/download_script.php?src_id=21842 # pydiction ver 1.2.3
 mv 'download_script.php?src_id=21842' pydiction.zip
@@ -36,7 +36,7 @@ mv pydiction/after/ after/ #after 폴더를 .vim 폴더 아래 이동
 
 ### .vimrc 파일 수정
 1. vim 환경을 적용하기 위해 .vimrc 파일을 수정한다.
-```
+```bash
 # vim ~/.vimrc
 syntax on
 filetype plugin on
