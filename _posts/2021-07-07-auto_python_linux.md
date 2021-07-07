@@ -56,3 +56,7 @@ let g:pydiction_location='/home/[user_id]/.vim/pydiction/complete-dict' # [user_
 ### 적용 결과
 <img data-action="zoom" src='{{ "/img/post/auto_python.gif" | relative_url }}' alt='auto python'>
 tab 버튼을 누르게 되면 자동완성이 실행된다.
+
+
+> Thanks for
+> https://doc.raonworks.com/?p=530
