@@ -47,10 +47,11 @@ tags:
 1. 특정 서버에게 수많은 접속 시도 만듦
 2. 다른 이용자가 정상 서비스 불가
 3. 서버 자원 소진시켜 본래 의도대로 사용하지 못하게 함
-4. ICMP Flood 공격
-5. tear drop 공격 - 내용물이 겹치거나, 내용물의 크기가 과대한 망가진 IP 조각 보냄
-6. P2P 공격
-7. 영구 서비스 거부 공격(Flashing) - pDoS 공격, 시스템 손상시켜 하드웨어를 교체 또는 재설치 하게 만듦
+4. 공격 기법
+    - ICMP Flood 공격
+    - tear drop 공격 : 내용물이 겹치거나, 내용물의 크기가 과대한 망가진 IP 조각 보냄
+    - P2P 공격
+    - 영구 서비스 거부 공격(Flashing) - pDoS 공격, 시스템 손상시켜 하드웨어를 교체 또는 재설치 하게 만듦
 
 `JSON`
 1. 속성-값 쌍, 키-값 쌍 데이터 오브젝트
@@ -287,7 +288,7 @@ tags:
 3. Slow HTTP DoS(L7)
     - Slow HTTP POST DoS = RUDY(R-U-DEAD-YET) : FORM 을 이용해 HTTP POST 전송 Content-Length를 매우 크게 설정
     - Slow HTTP READ DoS : 패킷 지속적 전송
-    - Slow HTTP HEADER DoSSlowLoris : GET 요청 보낸 후 완전하지 않은 요청을 보냄
+    - Slow HTTP HEADER DoS = SlowLoris : GET 요청 보낸 후 완전하지 않은 요청을 보냄
  
 `오픈스택`
 1. 아파치 라이선스 형태
@@ -427,9 +428,9 @@ tags:
 `고가용성`
 1. 시스템에 장애가 생기더라도 빠르게 복구하는 성질
 2. 유형
-    - Hot Standby : 상시대기 / 가동 시스템 + 백업 시스템 구성 
-    - Mutual Takeover : 상호 인수 / fail-over 대비
-    - Concurrent Access : 동시적 접근 / 동시에 업무 나누어 병렬 처리 방식
+    - Hot Standby(상시대기) : 가동 시스템 + 백업 시스템 구성 
+    - Mutual Takeover(상호인수) : fail-over 대비
+    - Concurrent Access(동시적 접근) : 동시에 업무 나누어 병렬 처리 방식
     
 `페르소나`
 1. 잠재적 사용자의 다양한 목적과 관찰된 행동 패턴 응집시켜 놓은 가상의 사용자
